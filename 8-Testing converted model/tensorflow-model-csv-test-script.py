@@ -14,8 +14,8 @@ else:
     device = "/CPU:0"
 
 # Set the model path and CSV file path
-model_path = r"C:\Users\dimit\Downloads\AWS Serverless Sentiment Analysis for yelp service reviews\7-tensorflow_model"
-csv_file_path = r"C:\Users\dimit\Downloads\AWS Serverless Sentiment Analysis for yelp service reviews\2-CSV files\processed_data\processed_data_code_test.csv"
+model_path = r"C:\path\to\"
+csv_file_path = r"C:\path\to\"
 
 # Load the model and tokenizer
 with tf.device(device):
