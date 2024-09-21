@@ -70,3 +70,7 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"An error occurred: {str(e)}")
         exit(1)
+
+# This file contains code that uses the "Yelp Reviews for SA fine-grained 5 classes CSV" dataset,
+# which is licensed under the Apache License 2.0. 
+# For more information, see: https://www.kaggle.com/datasets/yacharki/yelp-reviews-for-sa-finegrained-5-classes-csv

@@ -1,12 +1,12 @@
-# Sentiment Analysis Model for Product Reviews
+# Sentiment Analysis Model for Service Reviews
 
 ## Project Overview
 
-This project is a production-ready DistilBERT Sentiment Analysis model for product reviews desgined as a low cost market research tool with the nuiance of an actual market researcher, it was trained with a dataset of over 4 million Amazon product reviews to work for a wide variety of products in a highly scalable manner. This project comes with designs for a serverless live demo in AWS. 
+This project is a production-ready DistilBERT Sentiment Analysis model for service reviews desgined as a low cost market research tool with the nuiance of an actual market researcher, it was trained with a dataset of over 700K Yelp Service reviews to work for a wide variety of services in a highly scalable manner. This project comes with designs for a serverless live demo in AWS. 
 
 ### Key Features
 
-- Pre-trained DistilBERT model for sentiment analysis on product reviews
+- Pre-trained DistilBERT model for sentiment analysis on service reviews
 - Designed for low compute costs to maximize scalability
 - Conversion from PyTorch to TensorFlow
 - Data processing and tokenization pipeline
@@ -16,7 +16,7 @@ This project is a production-ready DistilBERT Sentiment Analysis model for produ
 ## Project Structure
 
 1. **1-Data processing**: Script for data preparation
-2. **2-CSV files(Production test)**: CSV file used for production testing(Full dataset https://www.kaggle.com/datasets/bittlingmayer/amazonreviews)
+2. **2-CSV files(Production test)**: CSV file used for production testing(Full dataset https://www.kaggle.com/datasets/yacharki/yelp-reviews-for-sa-finegrained-5-classes-csv)
 3. **3-Tokenization and Training**: Tokenization process and initial model training
 4. **4-distilbert_sentiment_model**: Original PyTorch DistilBERT model
 5. **5-Testing model**: Scripts for testing the PyTorch model, both a write in and a CSV input script 
@@ -26,24 +26,23 @@ This project is a production-ready DistilBERT Sentiment Analysis model for produ
 
 ## Documentation
 
-- **MODEL.md**: https://github.com/DimitriVavoulisPortfolio/aws-serverless-nlp-sentiment-4M-product-reviews/blob/main/MODEL.md
-- **PROCESS.md**: https://github.com/DimitriVavoulisPortfolio/aws-serverless-nlp-sentiment-4M-product-reviews/blob/main/PROCESS.md
-- **AWS-IMPLEMENTATION-AND-COST-REPORT.md**: https://github.com/DimitriVavoulisPortfolio/aws-serverless-nlp-sentiment-4M-product-reviews/blob/main/AWS-IMPLEMENTATION-WITH-COST-REPORT.md
+- **MODEL.md**: https://github.com/DimitriVavoulisPortfolio/aws-serverless-nlp-sentiment-700k-service-reviews/blob/main/MODEL.md
+- **PROCESS.md**: https://github.com/DimitriVavoulisPortfolio/aws-serverless-nlp-sentiment-700k-service-reviews/blob/main/PROCESS.md
+- **AWS-IMPLEMENTATION-AND-COST-REPORT.md**: https://github.com/DimitriVavoulisPortfolio/aws-serverless-nlp-sentiment-700k-service-reviews/blob/main/AWS-IMPLEMENTATION-WITH-COST-REPORT.md
 
 ## Model Performance
 
-- **4M-dataset-sentiment_distribution.png**: Visualization of sentiment distribution in the dataset
-- **400K-dataset-testing.png**: Results of model testing on a 400K sample dataset
-- **Accuracy: 0.9973**
-- **Precision: 0.9968**
-- **Recall: 0.9979**
-- **F1: 0.9973**
+- **50K-dataset-testing.png**: Results of model testing on a 50K sample dataset
+- **Accuracy: 0.8933**
+- **Precision: 0.8536**
+- **Recall: 0.8851**
+- **F1: 0.8691**
  
 ## Quick Start Guide
 
 1. Clone the repository:
    ```
-   git clone https://github.com/DimitriVavoulisPortfolio/aws-serverless-nlp-sentiment-4M-product-reviews.git
+   git clone https://github.com/DimitriVavoulisPortfolio/aws-serverless-nlp-sentiment-700k-service-reviews.git
    cd aws-serverless-nlp-sentiment-4M-product-reviews
    ```
 
@@ -72,6 +71,16 @@ DISCLAIMER: The paths for the models have to be put in by the user
 ## License
 
 This project is licensed under the Apache-2.0 license - see the [LICENSE](LICENSE) file for details.
+
+```markdown
+## Dataset
+
+This project uses the "Yelp Reviews for SA fine-grained 5 classes CSV" dataset, which is licensed under the Apache License 2.0. The dataset can be obtained from:
+
+https://www.kaggle.com/datasets/yacharki/yelp-reviews-for-sa-finegrained-5-classes-csv
+
+We acknowledge and are grateful to the creators and contributors of this dataset for making it available for use.
+```
 
 ## Contact
 
