@@ -3,8 +3,8 @@ import tensorflow as tf
 import pandas as pd
 
 # Set the model path and input file path
-model_path = r"C:\Users\dimit\Downloads\AWS Serverless Sentiment Analysis for yelp service reviews\7-tensorflow_model"
-input_file_path = r"C:\Users\dimit\Downloads\AWS Serverless Sentiment Analysis for yelp service reviews\2-CSV files\processed_data\processed_data_production_test.csv"
+model_path = r"C:\path\to\"
+input_file_path = r"C:\path\to\"
 
 # Load the model and tokenizer
 print("Loading model...")
