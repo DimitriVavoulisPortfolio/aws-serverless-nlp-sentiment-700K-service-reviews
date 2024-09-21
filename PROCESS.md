@@ -2,21 +2,21 @@
 
 ## Project Overview
 
-This document outlines the development process and planned deployment for our serverless sentiment analysis system, designed to analyze Amazon product reviews using AWS services. The system includes both back-end processing and a front-end user interface.
+This document outlines the development process and planned deployment for the serverless sentiment analysis system, designed to analyze Yelp service reviews using AWS services. The system includes both back-end processing and a front-end user interface.
 
 ## Development Stages
 
 ### 1. Data Preparation and Model Training
 
 #### Data Collection and Preprocessing
-- Collected 2.8 million Amazon product reviews
+- Collected 650K Yelp service reviews
 - Cleaned and preprocessed the text data
 - Split the dataset into training and testing sets
 
 #### Model Training
 - Chose DistilBERT as the base model for its balance of performance and efficiency
 - Implemented and trained the model using PyTorch on the full dataset
-- Achieved high accuracy (99.73%) on the test set
+- Achieved good accuracy (89.33%) on the test set
 
 ### 2. Model Conversion
 
