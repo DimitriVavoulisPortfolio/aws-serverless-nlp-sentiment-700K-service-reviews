@@ -16,7 +16,7 @@ This project is a production-ready DistilBERT Sentiment Analysis model for servi
 ## Project Structure
 
 1. **1-Data processing**: Script for data preparation
-2. **2-CSV files(Production test)**: CSV file used for production testing(Full dataset https://www.kaggle.com/datasets/bittlingmayer/amazonreviews)
+2. **2-CSV files(Production test)**: CSV file used for production testing(Full dataset https://www.kaggle.com/datasets/yacharki/yelp-reviews-for-sa-finegrained-5-classes-csv)
 3. **3-Tokenization and Training**: Tokenization process and initial model training
 4. **4-distilbert_sentiment_model**: Original PyTorch DistilBERT model
 5. **5-Testing model**: Scripts for testing the PyTorch model, both a write in and a CSV input script 
@@ -71,6 +71,16 @@ DISCLAIMER: The paths for the models have to be put in by the user
 ## License
 
 This project is licensed under the Apache-2.0 license - see the [LICENSE](LICENSE) file for details.
+
+```markdown
+## Dataset
+
+This project uses the "Yelp Reviews for SA fine-grained 5 classes CSV" dataset, which is licensed under the Apache License 2.0. The dataset can be obtained from:
+
+https://www.kaggle.com/datasets/yacharki/yelp-reviews-for-sa-finegrained-5-classes-csv
+
+We acknowledge and are grateful to the creators and contributors of this dataset for making it available for use.
+```
 
 ## Contact
 
