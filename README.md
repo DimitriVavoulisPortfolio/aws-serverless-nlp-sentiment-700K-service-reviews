@@ -43,7 +43,7 @@ This project is a production-ready DistilBERT Sentiment Analysis model for servi
 1. Clone the repository:
    ```
    git clone https://github.com/DimitriVavoulisPortfolio/aws-serverless-nlp-sentiment-700k-service-reviews.git
-   cd aws-serverless-nlp-sentiment-4M-product-reviews
+   cd aws-serverless-nlp-sentiment-700k-service-reviews
    ```
 
 2. Install dependencies:
