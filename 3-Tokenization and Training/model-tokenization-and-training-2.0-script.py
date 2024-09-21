@@ -135,3 +135,7 @@ trainer.save_model(model_save_path)
 tokenizer.save_pretrained(model_save_path)
 
 print(f"Training complete. Model and tokenizer saved to {model_save_path}")
+
+# This file contains code that uses the "Yelp Reviews for SA fine-grained 5 classes CSV" dataset,
+# which is licensed under the Apache License 2.0. 
+# For more information, see: https://www.kaggle.com/datasets/yacharki/yelp-reviews-for-sa-finegrained-5-classes-csv
