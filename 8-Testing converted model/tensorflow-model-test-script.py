@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 
 # Set the model path
-model_path = r"C:\Users\dimit\Downloads\AWS Serverless Sentiment Analysis for yelp service reviews\7-tensorflow_model"
+model_path = r"C:\path\to\"
 
 # Load the model and tokenizer
 model = TFAutoModelForSequenceClassification.from_pretrained(model_path)
