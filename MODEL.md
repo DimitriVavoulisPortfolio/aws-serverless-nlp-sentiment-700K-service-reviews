@@ -1,4 +1,4 @@
-# MODEL.md - Sentiment Analysis Model Documentation
+# MODEL.md - Sentiment Analysis Model for Service Reviews Documentation
 
 ## Model Architecture
 
@@ -11,8 +11,8 @@ The sentiment analysis model is based on DistilBERT, a distilled version of BERT
 ## Training Process
 
 ### Dataset
-- Total samples: 2.8 million Amazon product reviews
-- Features: 'cleaned_text' (preprocessed review text), 'sentiment' (1 for positive, 2 for negative)
+- Total samples: 700K Yelp service reviews
+- Features: 'review_text' (preprocessed review text), 'sentiment' (0 for negative, 1 for positive, after processing from 1-5 scale)
 
 ### Training Configuration
 - Framework: PyTorch
@@ -48,12 +48,10 @@ No explicit quantization was performed after the initial training and conversion
 
 Based on the test results shown in the image:
 
-- Accuracy: 0.9973 (99.73%)
-- Precision: 0.9968 (99.68%)
-- Recall: 0.9979 (99.79%)
-- F1 Score: 0.9973 (99.73%)
-
-These metrics indicate exceptional performance on the test dataset, suggesting that the model has learned to classify sentiment with high accuracy across a diverse range of product reviews.
+- Accuracy: 0.8933 (89.33%)
+- Precision: 0.8536 (85.36%)
+- Recall: 0.8851 (88.51%)
+- F1 Score: 0.8691 (86.91%)
 
 ## Additional Notes
 
